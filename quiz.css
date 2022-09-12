@@ -1,7 +1,10 @@
+* {
+    margin: 0;
+}
+
 .choice-container {
     display:flex;
-    margin-bottom: 20px;
-    width: 100%;
+    width: 1000px;
     border-radius: 4px;
     background-color: lightskyblue;
     /*add?
@@ -9,9 +12,8 @@
     */
     font-size: 1.4rem; 
     text-align: left;
-    padding: 10px;
+    padding: 25px;
     width: 200px;
-
     box-shadow: 3px 3px 3px lightgray;
 }
 
@@ -22,6 +24,7 @@
 }
 
 
+
 .choice-container:hover {
     cursor: pointer;
     box-shadow: 3px 3px 3px lightgrey;
@@ -29,6 +32,6 @@
     transform: transform 130ms;
 }
 
-.choice-prefix {
-    margin-bottom: 5px;
+.choice-prefix-A {
+    margin-bottom: 10px;
 }
