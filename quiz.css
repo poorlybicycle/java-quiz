@@ -1,0 +1,34 @@
+.choice-container {
+    display:flex;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: lightskyblue;
+    /*add?
+    min-width: 500px;
+    */
+    font-size: 1.4rem; 
+    text-align: left;
+    padding: 10px;
+    width: 200px;
+
+    box-shadow: 3px 3px 3px lightgray;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 3px lightgrey;
+    transform: scale(1.02);
+    transform: transform 130ms;
+}
+
+.choice-prefix {
+    margin-bottom: 5px;
+}
