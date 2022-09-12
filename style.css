@@ -72,3 +72,7 @@ h1 {
     transform: scale(1.035);
 }
 
+/* might be unnecessary?? */
+#highscore-btn:hover {
+    box-shadow: --hover-color;
+}
