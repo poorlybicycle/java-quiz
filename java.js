@@ -6,13 +6,27 @@ const progressText = document.querySelector('#progressText');
 
 const scoreText = document.querySelector('#score');
 
-let currentQuestion = ();
+let currentQuestion = {};
 let acceptingAnswers = true;
-let score = 0
-let availableQuestions = []
+let score = 0;
+let availableQuestions = [];
 
 let questions = [
     {
-        question: 
+        question: 'Commonly used data types do NOT include:',
+        choice1: 'strings',
+        choice2: 'booleans',
+        choice3: 'alerts',
+        choice4: 'numbers',
+        answer: 2,
+    },
+
+    {
+        question: 'The condition in an if/else statement is enclosed with _________',
+        choice1: 'quotes',
+        choice2: 'curly brackets',
+        choice3: 'parenthesis',
+        choice4: 'square brackets',
+        answer: 3,
     }
 ]
