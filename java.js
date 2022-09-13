@@ -30,3 +30,16 @@ let questions = [
         answer: 3,
     }
 ]
+
+const SCORE_POINTS = 60
+
+startGame = () => {
+    score = 60,
+    availableQuestions = [...questions]
+    getNewQuestion()
+}
+
+getNewQuestion = () => {
+    if(availableQuestions.length ===0)
+    localStorage.setItem('mostRecentScore', score)
+}
