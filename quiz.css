@@ -19,7 +19,7 @@
     */
     font-size: 100%; 
     text-align: left;
-    padding: 15px;
+    padding: 10px;
     width: 200px;
     box-shadow: 3px 3px 3px lightgray;
     margin-bottom: 2px;
@@ -36,6 +36,7 @@
     box-shadow: 3px 3px 3px lightgrey;
     transform: scale(1.02);
     transition: transform 130ms;
+    background-color: var(--hover-color);
 }
 
 .choice-prefix {
@@ -48,4 +49,36 @@
     padding: 5px;
     width: 100%;
 }
+/* what */
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+}
 
+.correct {
+    background: lightgreen;
+}
+
+.incorrect {
+    background: red;
+}
+
+/* heads up display */
+
+.hud-prefix {
+    text-align: center;
+    font-size: 100%;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+.hud-item {
+    width: auto;
+}
+
+.progress-text {
+
+}
